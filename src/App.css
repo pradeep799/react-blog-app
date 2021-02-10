@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: cadetblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Navbar */
+nav {
+  background-color: #03045e;
+  margin-bottom: 2rem;
+}
+.nav-center {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  display: flex;
+}
+.nav__links {
+  padding-left: 2rem;
+  font-weight: 600;
+  color: #f1faee;
+  text-decoration: none;
+  cursor: pointer;
+}
+.logo {
+  padding: 0 0.3rem 0.3rem;
+  border-left: 1px solid #f1faee;
+  border-bottom: 1px solid #f1faee;
+  font-weight: 600;
+  color: #f1faee;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* Navbar */
+
+.main {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+ul .blog-info {
+  background-color: #a8dadc;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+.blog-info__Link {
+  text-decoration: none;
+  color: #03045e;
+  text-transform: capitalize;
+}
+
+/* blog */
+.blog-container {
+  width: 85%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: azure;
+  box-shadow: 4px 4px 5px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.blog-heading {
+  text-align: center;
+  margin: 1rem 0;
+  text-transform: capitalize;
+  color: #03045e;
+}
+.blog-snippet {
+  padding: 2rem;
+  text-align: justify;
+}
+/* blog */
+
+/* Form */
+.form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #f1faee;
+  box-shadow: 4px 4px 5px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.form > div {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: flex-start;
+}
+.form label {
+  font-size: 1.3rem;
+  margin-right: 1rem;
+  color: #03045e;
+}
+.form input[type="text"],
+.form textarea {
+  padding: 0.4rem;
+  border-radius: 2px;
+  width: 15rem;
+  outline: none;
+  border-radius: 5px;
+  font-family: inherit;
+  text-transform: capitalize;
+}
+input[type="submit"] {
+  padding: 0.4rem 1rem;
+  grid-column: 2/-1;
+  text-transform: capitalize;
+  outline: none;
+  border-radius: 5px;
+  font-family: inherit;
+}
+/* Form */
